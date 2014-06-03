@@ -1,3 +1,124 @@
-<h2 id='title'>Welcome to Ember.js</h2>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Political | Neighbor </title>
+    <link rel="stylesheet" href="vendor/css/foundation.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+  <h2 class="title">Welcome to Ember.jsT</h2>
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="nav-bar right">
+       <ul class="button-group">
+         <li><a href="" class="button">Home</a></li>
+        </ul>
+      </div>
+      <h1>Political Neighbor </h1>
+      <p>How policy directly impacts you.</p>
+      <hr />
+    </div>
+  </div>
+
+  <div class="row">
+
+    <!-- Main Content -->
+    <div class="large-12 columns" role="content" id="content">
+      <article>
+        <h3 class="big-title"><a href="#">Oregon Congressional Representatives</a>
+        </h3>            
+        <a href="#" class="button tiny js-toggle-hidden-facts" id="ushd">Get facts</a>
+
+        <div class="columnContainer hide">
+          <div class="column">
+            <h3 class="title" id="ushd1"></h3>
+              <div class="row">
+                <div class="large-6 columns">
+                  <img id="politican" src="http://bluebook.state.or.us/images/national/bonamicis.jpg">
+                </div>
+                <p class="facts" id="ushdF1"></p>
+              </div>      
+              <hr />
+          </div>
+        </div>
+
+        <div class="columnContainer hide">
+          <div class="column">
+            <h3 class="title" id="ushd2"></h3>
+              <div class="row">  
+                <div class="large-6 columns">
+                  <img id="politican" src="http://bluebook.state.or.us/images/national/waldeng1.jpg">
+                </div>         
+                <p class="facts" id="ushdF2"></p>
+              </div>   
+              <hr />
+          </div>
+        </div>
+
+        <div class="columnContainer hide">
+          <div class="column">
+            <h3 class="title" id="ushd5"></h3>
+              <div class="row">
+                <div class="large-6 columns">
+                  <img id="politican" src="http://bluebook.state.or.us/images/national/blumenauere.jpg">
+                </div>
+                <p class="facts" id="ushdF5"></p>
+              </div>
+              <hr />
+          </div>
+        </div> 
+
+        <div class="columnContainer hide">
+          <div class="column">
+            <h3 class="title" id="ushd4"></h3>
+              <div class="row">
+                <div class="large-6 columns">
+                  <img id="politican" src="http://bluebook.state.or.us/images/national/defaziop.jpg">
+                </div>
+                <p class="facts" id="ushdF4"></p>
+              </div>
+              <hr />
+          </div>
+        </div> 
+        <br>
+
+        <div class="columnContainer hide">
+          <div class="column">
+            <h3 class="title" id="ushd3"></h3>
+              <div class="row">
+                <div class="large-6 columns">
+                  <img id="politican" src="http://bluebook.state.or.us/images/national/schraderk.jpg">
+                </div>
+                <p class="facts" id="ushdF3"></p>
+              </div>
+          </div>
+        </div> 
+      </article>
+    </div>  
+  </div>
 
 {{outlet}}
+
+  <footer class="row">
+    <div class="large-12 columns">
+      <hr />
+      <div class="row">
+        <div class="large-6 columns">
+          <p>© Copyright Erica L. Thatcher</p>
+        </div>
+        <div class="large-6 columns">
+          <ul class="inline-list right">
+            <li><a href="https://sunlightlabs.github.io/congress/index.html">API Source</a></li>
+            <li><a href="http://ericalthatcher.github.io">Portfolio</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+      <script src="vendor/foundation/underscore.js"></script>
+      <script src="vendor/foundation/backbone.js"></script>
+      <script src="vendor/foundation/modernizr.js"></script>
+      <script src="js/main.js"></script>
+    </body>
+  </html>
